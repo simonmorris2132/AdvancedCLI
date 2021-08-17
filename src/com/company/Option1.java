@@ -18,5 +18,3 @@ public class Option1 {
         return number * recur(number - 1);
     }
 }
-
-

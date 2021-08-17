@@ -43,9 +43,7 @@ public class Menu {
                 }
                 case 5 -> {
                     check = false;
-                    System.out.println ("\n" +
-                            "\n" +
-                            "See-Ya, Loser. \n");
+                    System.out.println ("\n" + "\n" + "See-Ya, Loser. \n");
                 }
                 default -> System.out.println ("\n" +
                         "Please Enter A Valid Option" +

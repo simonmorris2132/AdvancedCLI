@@ -14,5 +14,4 @@ public class Option2 {
         }
         System.out.println(newStr.trim());
     }
-
 }
