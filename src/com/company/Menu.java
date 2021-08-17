@@ -33,7 +33,11 @@ public class Menu {
                     Option2.run();
                     Input.yesNo();
                 }
-                case 3,4 -> {
+                case 3 -> {
+                    Option3.run();
+                    Input.yesNo();
+                }
+                case 4 -> {
                     System.out.println ("\n" +
                             "Program In Progress" +
                             "\n");
