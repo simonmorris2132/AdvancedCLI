@@ -38,17 +38,14 @@ public class Menu {
                     Input.yesNo();
                 }
                 case 4 -> {
-                    System.out.println ("\n" +
-                            "Program In Progress" +
-                            "\n");
+                    Option4.run();
                     Input.yesNo();
                 }
                 case 5 -> {
                     check = false;
                     System.out.println ("\n" +
                             "\n" +
-                            "See-Ya, Loser. \uD83D\uDC4B \uD83D\uDE04" +
-                            "\n");
+                            "See-Ya, Loser. \n");
                 }
                 default -> System.out.println ("\n" +
                         "Please Enter A Valid Option" +
