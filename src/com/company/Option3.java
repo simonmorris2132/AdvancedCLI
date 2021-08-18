@@ -22,7 +22,7 @@ public class Option3 {
 
             encoded += strArr[i] + " ";
         }
-        System.out.println (encoded.trim ());
+        System.out.println (encoded.trim());
     }
 
     static String flipper( String val) {
