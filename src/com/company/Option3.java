@@ -30,8 +30,8 @@ public class Option3 {
         char[] chArr = val.toCharArray ();
         int lastIndex = chArr.length - 1;
         char temp = chArr[0];
-        chArr[0]= chArr[lastIndex];
-        chArr[lastIndex]= temp;
+        chArr[0] = chArr[lastIndex];
+        chArr[lastIndex] = temp;
 
         String flipped = new String (chArr);
 
