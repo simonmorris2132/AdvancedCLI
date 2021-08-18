@@ -3,7 +3,7 @@ package com.company;
 public class Option3 {
 
     public static void run() {
-        System.out.print ("Please enter a Sentence to to translate to pig latin: \n");
+        System.out.print("Please enter a Sentence to to translate to pig latin: \n");
 
         Input.input.nextLine();
         String str = Input.input.nextLine();
@@ -15,9 +15,9 @@ public class Option3 {
             boolean vowelCheck =  strArr[i].matches("^[aeiouAIEOU].*");
 
             if (vowelCheck) {
-                strArr[i] = flipper(strArr[i]);
+                strArr[i] = wordFlip(strArr[i]);
                 strArr[i] += "way";
-            } else strArr[i] = flipper(strArr[i]);
+            } else strArr[i] = wordFlip(strArr[i]);
             strArr[i] += "ay";
 
             encoded += strArr[i] + " ";
@@ -25,7 +25,7 @@ public class Option3 {
         System.out.println (encoded.trim());
     }
 
-    static String flipper( String val) {
+    static String wordFlip(String val) {
 
         char[] chArr = val.toCharArray ();
         int lastIndex = chArr.length - 1;
