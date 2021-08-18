@@ -28,7 +28,7 @@ public class Option3 {
     static String flipper( String val) {
 
         char[] chArr = val.toCharArray ();
-        int lastIndex = chArr.length -1;
+        int lastIndex = chArr.length - 1;
         char temp = chArr[0];
         chArr[0]= chArr[lastIndex];
         chArr[lastIndex]= temp;
