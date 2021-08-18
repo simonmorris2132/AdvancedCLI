@@ -14,7 +14,7 @@ public class Option3 {
 
             boolean vowelCheck =  strArr[i].matches("^[aeiouAIEOU].*");
 
-            if (vowelCheck){
+            if (vowelCheck) {
                 strArr[i] = flipper(strArr[i]);
                 strArr[i] += "way";
             } else strArr[i] = flipper(strArr[i]);
